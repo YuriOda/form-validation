@@ -1,0 +1,16 @@
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5rem;
+
+  background-color: #f8f4ea;
+
+  text-align: center;
+}
+
+.footer-text {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}

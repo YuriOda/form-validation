@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+}
+
+/* MQ */
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 50%;
+  }
+}
